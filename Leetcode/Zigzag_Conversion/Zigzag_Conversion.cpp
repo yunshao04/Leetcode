@@ -20,7 +20,8 @@ string convert(string s, int numRows) {
 		remain = i % period;
 		if (remain < numRows) {
 			zigzag.at(remain).push_back(s.at(i));
-		} else {
+		}
+		else {
 			zigzag.at(period - remain).push_back(s.at(i));
 		}
 	}
@@ -31,7 +32,7 @@ string convert(string s, int numRows) {
 }
 
 int main() {
-	string input = "A";	
+	string input = "A";
 	string output;
 	int nRows = 1;
 	output = convert(input, nRows);
