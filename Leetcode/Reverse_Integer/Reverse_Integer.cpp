@@ -19,7 +19,7 @@ int reverse(int x) {
 		sValue.at(i) = sValue.at(sValue.length() - i - 1);
 		sValue.at(sValue.length() - i - 1) = temp;
 	}
-	int rs = stoi(sValue, NULL, 10);
+	long rs = stol(sValue, NULL, 10);
 	if (x < 0) {
 		rs = 0 - rs;
 	}
@@ -29,7 +29,8 @@ int reverse(int x) {
 int main() {
 	int n1 = 123;
 	int n2 = -123;
-	int rs = reverse(n2);
+	int n3 = 1534236469;
+	long rs = reverse(n3);
 	cout << rs << endl;
 	system("pause");
 	return 0;
