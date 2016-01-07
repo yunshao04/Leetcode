@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zigzag_Conversion", "Zigzag_Conversion\Zigzag_Conversion.vcxproj", "{4DE6B2E3-ACAC-47C3-86B3-FD2DEB423027}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse_Integer", "Reverse_Integer\Reverse_Integer.vcxproj", "{74565C3D-8B8F-4A91-8CAE-3E5005583DE4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "String_to_Integer", "String_to_Integer\String_to_Integer.vcxproj", "{9FD64B25-F43E-43A7-873B-DFBBA322FC2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +19,14 @@ Global
 		{4DE6B2E3-ACAC-47C3-86B3-FD2DEB423027}.Debug|Win32.Build.0 = Debug|Win32
 		{4DE6B2E3-ACAC-47C3-86B3-FD2DEB423027}.Release|Win32.ActiveCfg = Release|Win32
 		{4DE6B2E3-ACAC-47C3-86B3-FD2DEB423027}.Release|Win32.Build.0 = Release|Win32
+		{74565C3D-8B8F-4A91-8CAE-3E5005583DE4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{74565C3D-8B8F-4A91-8CAE-3E5005583DE4}.Debug|Win32.Build.0 = Debug|Win32
+		{74565C3D-8B8F-4A91-8CAE-3E5005583DE4}.Release|Win32.ActiveCfg = Release|Win32
+		{74565C3D-8B8F-4A91-8CAE-3E5005583DE4}.Release|Win32.Build.0 = Release|Win32
+		{9FD64B25-F43E-43A7-873B-DFBBA322FC2E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9FD64B25-F43E-43A7-873B-DFBBA322FC2E}.Debug|Win32.Build.0 = Debug|Win32
+		{9FD64B25-F43E-43A7-873B-DFBBA322FC2E}.Release|Win32.ActiveCfg = Release|Win32
+		{9FD64B25-F43E-43A7-873B-DFBBA322FC2E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

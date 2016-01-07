@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{74565C3D-8B8F-4A91-8CAE-3E5005583DE4}</ProjectGuid>
-    <RootNamespace>Reverse_Integer</RootNamespace>
+    <ProjectGuid>{9FD64B25-F43E-43A7-873B-DFBBA322FC2E}</ProjectGuid>
+    <RootNamespace>String_to_Integer</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,7 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Reverse_Integer.cpp" />
+    <ClCompile Include="String_to_Integer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

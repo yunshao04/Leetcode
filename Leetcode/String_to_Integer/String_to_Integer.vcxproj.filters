@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Reverse_Integer.cpp">
+    <ClCompile Include="String_to_Integer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

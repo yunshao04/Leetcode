@@ -7,15 +7,15 @@ using namespace std;
 int reverse(int x) {
 	int value;
 	string sValue;
+	char &temp;
 	if (x < 0) {
 		value = abs(x);
-	}
-	else {
+	} else {
 		value = x;
 	}
 	sValue = to_string(value);
 	for (int i = 0; i < (sValue.length() / 2); i++) {
-		char temp = sValue.at(i);
+		temp = sValue
 		sValue.at(i) = sValue.at(sValue.length() - i - 1);
 		sValue.at(sValue.length() - i - 1) = temp;
 	}
@@ -29,8 +29,6 @@ int reverse(int x) {
 int main() {
 	int n1 = 123;
 	int n2 = -123;
-	int rs = reverse(n2);
+	int rs = reverse(n1);
 	cout << rs << endl;
-	system("pause");
-	return 0;
 }
