@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse_Integer", "Reverse_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "String_to_Integer", "String_to_Integer\String_to_Integer.vcxproj", "{9FD64B25-F43E-43A7-873B-DFBBA322FC2E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9_Palindrome_Number", "9_Palindrome_Number\9_Palindrome_Number.vcxproj", "{23690163-FC89-408F-A0A0-8CF42312F2BB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "014_Longest_Common_Prefix", "014_Longest_Common_Prefix\014_Longest_Common_Prefix.vcxproj", "{B4E44699-28D9-438D-B0AB-45745C946264}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +31,14 @@ Global
 		{9FD64B25-F43E-43A7-873B-DFBBA322FC2E}.Debug|Win32.Build.0 = Debug|Win32
 		{9FD64B25-F43E-43A7-873B-DFBBA322FC2E}.Release|Win32.ActiveCfg = Release|Win32
 		{9FD64B25-F43E-43A7-873B-DFBBA322FC2E}.Release|Win32.Build.0 = Release|Win32
+		{23690163-FC89-408F-A0A0-8CF42312F2BB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{23690163-FC89-408F-A0A0-8CF42312F2BB}.Debug|Win32.Build.0 = Debug|Win32
+		{23690163-FC89-408F-A0A0-8CF42312F2BB}.Release|Win32.ActiveCfg = Release|Win32
+		{23690163-FC89-408F-A0A0-8CF42312F2BB}.Release|Win32.Build.0 = Release|Win32
+		{B4E44699-28D9-438D-B0AB-45745C946264}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B4E44699-28D9-438D-B0AB-45745C946264}.Debug|Win32.Build.0 = Debug|Win32
+		{B4E44699-28D9-438D-B0AB-45745C946264}.Release|Win32.ActiveCfg = Release|Win32
+		{B4E44699-28D9-438D-B0AB-45745C946264}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
