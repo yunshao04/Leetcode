@@ -61,25 +61,47 @@ ListNode* removeNthFromEnd(ListNode* head, int n) {
 /**
 第二个思路是开一个vector，然后把地址依次存下，这样就相当于给链表加了直接访问，想删哪个删哪个
 */
-	vector<ListNode*> ListAdd;
-	while (head->next != NULL) {
-
+	if (head == NULL) {
+		return NULL;
 	}
-
-
-
+	if (head->next == NULL) {
+		return NULL;
+	}
+	ListNode* cur = head;
+	vector<ListNode*> ListNodeAdd;
+	while (cur != NULL) {
+		ListNodeAdd.push_back(cur);
+		cur = cur->next;
+	}
+	if (n == ListNodeAdd.size()) {
+		return head->next;
+	}
+	ListNodeAdd.push_back(NULL);
+	ListNodeAdd.at(ListNodeAdd.size() - n - 2)->next = ListNodeAdd.at(ListNodeAdd.size() - n);
+	return head;
 }
+
+/*
+	第一次提交失败
+	Runtime Error： [1, 2] 2
+	原因：
+	ListNodeAdd.at(ListNodeAdd.size() - n - 2)，此处当删除首节点时会越界。
+	解决方案：
+	判断是否删除首节点，如果是，则直接返回第二个节点。
+	
+	第二次提交通过
+*/
 
 int main() {
 	ListNode *node1 = new ListNode(1);
 	ListNode *node2 = new ListNode(2);
-	ListNode *node3 = new ListNode(3);
-	ListNode *node4 = new ListNode(4);
-	ListNode *node5 = new ListNode(5);
+	//ListNode *node3 = new ListNode(3);
+	//ListNode *node4 = new ListNode(4);
+	//ListNode *node5 = new ListNode(5);
 	node1->next = node2;
-	node2->next = node3;
-	node3->next = node4;
-	node4->next = node5;
+	//node2->next = node3;
+	//node3->next = node4;
+	//node4->next = node5;
 
 	ListNode* rs = removeNthFromEnd(node1, 2);
 	ListNode* cur = rs;
