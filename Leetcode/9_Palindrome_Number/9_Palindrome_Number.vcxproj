@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{23690163-FC89-408F-A0A0-8CF42312F2BB}</ProjectGuid>
     <RootNamespace>My9_Palindrome_Number</RootNamespace>
+    <ProjectName>009_Palindrome_Number</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zigzag_Conversion", "Zigzag_Conversion\Zigzag_Conversion.vcxproj", "{4DE6B2E3-ACAC-47C3-86B3-FD2DEB423027}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "006_Zigzag_Conversion", "Zigzag_Conversion\Zigzag_Conversion.vcxproj", "{4DE6B2E3-ACAC-47C3-86B3-FD2DEB423027}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse_Integer", "Reverse_Integer\Reverse_Integer.vcxproj", "{74565C3D-8B8F-4A91-8CAE-3E5005583DE4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "007_Reverse_Integer", "Reverse_Integer\Reverse_Integer.vcxproj", "{74565C3D-8B8F-4A91-8CAE-3E5005583DE4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "String_to_Integer", "String_to_Integer\String_to_Integer.vcxproj", "{9FD64B25-F43E-43A7-873B-DFBBA322FC2E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "008_String_to_Integer", "String_to_Integer\String_to_Integer.vcxproj", "{9FD64B25-F43E-43A7-873B-DFBBA322FC2E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9_Palindrome_Number", "9_Palindrome_Number\9_Palindrome_Number.vcxproj", "{23690163-FC89-408F-A0A0-8CF42312F2BB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "009_Palindrome_Number", "9_Palindrome_Number\9_Palindrome_Number.vcxproj", "{23690163-FC89-408F-A0A0-8CF42312F2BB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "014_Longest_Common_Prefix", "014_Longest_Common_Prefix\014_Longest_Common_Prefix.vcxproj", "{B4E44699-28D9-438D-B0AB-45745C946264}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "019_Remove_Nth_Node_From_End_of_List", "019_Remove_Nth_Node_From_End_of_List\019_Remove_Nth_Node_From_End_of_List.vcxproj", "{93F110D1-3016-4B62-95B0-6EAA04814BD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B4E44699-28D9-438D-B0AB-45745C946264}.Debug|Win32.Build.0 = Debug|Win32
 		{B4E44699-28D9-438D-B0AB-45745C946264}.Release|Win32.ActiveCfg = Release|Win32
 		{B4E44699-28D9-438D-B0AB-45745C946264}.Release|Win32.Build.0 = Release|Win32
+		{93F110D1-3016-4B62-95B0-6EAA04814BD5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{93F110D1-3016-4B62-95B0-6EAA04814BD5}.Debug|Win32.Build.0 = Debug|Win32
+		{93F110D1-3016-4B62-95B0-6EAA04814BD5}.Release|Win32.ActiveCfg = Release|Win32
+		{93F110D1-3016-4B62-95B0-6EAA04814BD5}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

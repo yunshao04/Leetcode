@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{74565C3D-8B8F-4A91-8CAE-3E5005583DE4}</ProjectGuid>
     <RootNamespace>Reverse_Integer</RootNamespace>
+    <ProjectName>007_Reverse_Integer</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

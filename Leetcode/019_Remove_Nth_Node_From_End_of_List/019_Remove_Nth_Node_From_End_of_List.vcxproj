@@ -11,9 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4DE6B2E3-ACAC-47C3-86B3-FD2DEB423027}</ProjectGuid>
-    <RootNamespace>Zigzag_Conversion</RootNamespace>
-    <ProjectName>006_Zigzag_Conversion</ProjectName>
+    <ProjectGuid>{93F110D1-3016-4B62-95B0-6EAA04814BD5}</ProjectGuid>
+    <RootNamespace>My019_Remove_Nth_Node_From_End_of_List</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -65,7 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Zigzag_Conversion.cpp" />
+    <ClCompile Include="Remove_Nth_Node_From_End_of_List.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
