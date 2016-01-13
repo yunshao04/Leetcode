@@ -23,6 +23,11 @@ int removeDuplicates(vector<int>& nums) {
 	//}
 	//return count;
 
+	/*
+	新的思路是开两个指针i，j，和一个当前量cur。其中cur是当前非重复元素中的最大值
+	i指针之前都是不重复的sorted array （不包括i）； j指针根据cur向后寻找新的不重复元素，且j指针始终大于等于i指针
+	当j指针找到一个非重复元素时，直接赋给i指针，而后i++， j++
+	*/
 	if (nums.size() == 0) {
 		return 0;
 	}

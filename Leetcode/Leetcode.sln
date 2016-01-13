@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "021_Merge_Two_Sorted_Lists"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "026_Remove_Duplicates_from_Sorted_Array", "026_Remove_Duplicates_from_Sorted_Array\026_Remove_Duplicates_from_Sorted_Array.vcxproj", "{EE278307-CFB5-4950-9654-8CC6898E317E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "027_Remove_Element", "027_Remove_Element\027_Remove_Element.vcxproj", "{A08630D1-D1EA-4C35-A6F5-5A92A6FD613C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -63,6 +65,10 @@ Global
 		{EE278307-CFB5-4950-9654-8CC6898E317E}.Debug|Win32.Build.0 = Debug|Win32
 		{EE278307-CFB5-4950-9654-8CC6898E317E}.Release|Win32.ActiveCfg = Release|Win32
 		{EE278307-CFB5-4950-9654-8CC6898E317E}.Release|Win32.Build.0 = Release|Win32
+		{A08630D1-D1EA-4C35-A6F5-5A92A6FD613C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A08630D1-D1EA-4C35-A6F5-5A92A6FD613C}.Debug|Win32.Build.0 = Debug|Win32
+		{A08630D1-D1EA-4C35-A6F5-5A92A6FD613C}.Release|Win32.ActiveCfg = Release|Win32
+		{A08630D1-D1EA-4C35-A6F5-5A92A6FD613C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
