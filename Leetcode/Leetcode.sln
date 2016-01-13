@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "026_Remove_Duplicates_from_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "027_Remove_Element", "027_Remove_Element\027_Remove_Element.vcxproj", "{A08630D1-D1EA-4C35-A6F5-5A92A6FD613C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "028_Implement_strStr()", "028_Implement_strStr()\028_Implement_strStr().vcxproj", "{8C5C8101-BBB2-4832-864C-2E3920CBCAED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -69,6 +71,10 @@ Global
 		{A08630D1-D1EA-4C35-A6F5-5A92A6FD613C}.Debug|Win32.Build.0 = Debug|Win32
 		{A08630D1-D1EA-4C35-A6F5-5A92A6FD613C}.Release|Win32.ActiveCfg = Release|Win32
 		{A08630D1-D1EA-4C35-A6F5-5A92A6FD613C}.Release|Win32.Build.0 = Release|Win32
+		{8C5C8101-BBB2-4832-864C-2E3920CBCAED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8C5C8101-BBB2-4832-864C-2E3920CBCAED}.Debug|Win32.Build.0 = Debug|Win32
+		{8C5C8101-BBB2-4832-864C-2E3920CBCAED}.Release|Win32.ActiveCfg = Release|Win32
+		{8C5C8101-BBB2-4832-864C-2E3920CBCAED}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
