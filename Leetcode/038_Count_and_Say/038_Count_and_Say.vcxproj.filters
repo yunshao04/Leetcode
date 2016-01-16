@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Valid_Sudoku.cpp">
+    <ClCompile Include="Count_and_Say.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

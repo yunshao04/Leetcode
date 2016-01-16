@@ -25,6 +25,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "027_Remove_Element", "027_R
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "028_Implement_strStr()", "028_Implement_strStr()\028_Implement_strStr().vcxproj", "{8C5C8101-BBB2-4832-864C-2E3920CBCAED}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "036_Valid_Sudoku", "036_Valid_Sudoku\036_Valid_Sudoku.vcxproj", "{8F710BC8-A7AD-41DA-A0F2-FDC831368DDB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "038_Count_and_Say", "038_Count_and_Say\038_Count_and_Say.vcxproj", "{F0B64E32-075B-48B4-A337-004C7FF74108}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -75,6 +79,14 @@ Global
 		{8C5C8101-BBB2-4832-864C-2E3920CBCAED}.Debug|Win32.Build.0 = Debug|Win32
 		{8C5C8101-BBB2-4832-864C-2E3920CBCAED}.Release|Win32.ActiveCfg = Release|Win32
 		{8C5C8101-BBB2-4832-864C-2E3920CBCAED}.Release|Win32.Build.0 = Release|Win32
+		{8F710BC8-A7AD-41DA-A0F2-FDC831368DDB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8F710BC8-A7AD-41DA-A0F2-FDC831368DDB}.Debug|Win32.Build.0 = Debug|Win32
+		{8F710BC8-A7AD-41DA-A0F2-FDC831368DDB}.Release|Win32.ActiveCfg = Release|Win32
+		{8F710BC8-A7AD-41DA-A0F2-FDC831368DDB}.Release|Win32.Build.0 = Release|Win32
+		{F0B64E32-075B-48B4-A337-004C7FF74108}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F0B64E32-075B-48B4-A337-004C7FF74108}.Debug|Win32.Build.0 = Debug|Win32
+		{F0B64E32-075B-48B4-A337-004C7FF74108}.Release|Win32.ActiveCfg = Release|Win32
+		{F0B64E32-075B-48B4-A337-004C7FF74108}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

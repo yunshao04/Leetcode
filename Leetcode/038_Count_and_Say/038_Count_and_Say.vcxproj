@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8F710BC8-A7AD-41DA-A0F2-FDC831368DDB}</ProjectGuid>
-    <RootNamespace>My036_Valid_Sudoku</RootNamespace>
+    <ProjectGuid>{F0B64E32-075B-48B4-A337-004C7FF74108}</ProjectGuid>
+    <RootNamespace>My038_Count_and_Say</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,7 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Valid_Sudoku.cpp" />
+    <ClCompile Include="Count_and_Say.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
