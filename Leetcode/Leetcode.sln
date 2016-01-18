@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "066_Plus_One", "066_Plus_On
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "067_Add_Binary", "067_Add_Binary\067_Add_Binary.vcxproj", "{4B890F22-0F35-4EB0-B76C-965606ACA3E8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "070_Climbing_Stairs", "070_Climbing_Stairs\070_Climbing_Stairs.vcxproj", "{5502A7D3-ED6E-4BB0-81C4-D4190F316CB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -105,6 +107,10 @@ Global
 		{4B890F22-0F35-4EB0-B76C-965606ACA3E8}.Debug|Win32.Build.0 = Debug|Win32
 		{4B890F22-0F35-4EB0-B76C-965606ACA3E8}.Release|Win32.ActiveCfg = Release|Win32
 		{4B890F22-0F35-4EB0-B76C-965606ACA3E8}.Release|Win32.Build.0 = Release|Win32
+		{5502A7D3-ED6E-4BB0-81C4-D4190F316CB4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5502A7D3-ED6E-4BB0-81C4-D4190F316CB4}.Debug|Win32.Build.0 = Debug|Win32
+		{5502A7D3-ED6E-4BB0-81C4-D4190F316CB4}.Release|Win32.ActiveCfg = Release|Win32
+		{5502A7D3-ED6E-4BB0-81C4-D4190F316CB4}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
