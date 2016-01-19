@@ -37,6 +37,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "067_Add_Binary", "067_Add_B
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "070_Climbing_Stairs", "070_Climbing_Stairs\070_Climbing_Stairs.vcxproj", "{5502A7D3-ED6E-4BB0-81C4-D4190F316CB4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "083_Remove_Duplicates_from_Sorted_List", "083_Remove_Duplicates_from_Sorted_List\083_Remove_Duplicates_from_Sorted_List.vcxproj", "{45B44497-D01C-4035-A24F-CBC1BC30CCD0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "088_Merge_Sorted_Array", "088_Merge_Sorted_Array\088_Merge_Sorted_Array.vcxproj", "{095C6982-DBD8-48A8-A2B4-E9F78A8780AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -111,6 +115,14 @@ Global
 		{5502A7D3-ED6E-4BB0-81C4-D4190F316CB4}.Debug|Win32.Build.0 = Debug|Win32
 		{5502A7D3-ED6E-4BB0-81C4-D4190F316CB4}.Release|Win32.ActiveCfg = Release|Win32
 		{5502A7D3-ED6E-4BB0-81C4-D4190F316CB4}.Release|Win32.Build.0 = Release|Win32
+		{45B44497-D01C-4035-A24F-CBC1BC30CCD0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{45B44497-D01C-4035-A24F-CBC1BC30CCD0}.Debug|Win32.Build.0 = Debug|Win32
+		{45B44497-D01C-4035-A24F-CBC1BC30CCD0}.Release|Win32.ActiveCfg = Release|Win32
+		{45B44497-D01C-4035-A24F-CBC1BC30CCD0}.Release|Win32.Build.0 = Release|Win32
+		{095C6982-DBD8-48A8-A2B4-E9F78A8780AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{095C6982-DBD8-48A8-A2B4-E9F78A8780AB}.Debug|Win32.Build.0 = Debug|Win32
+		{095C6982-DBD8-48A8-A2B4-E9F78A8780AB}.Release|Win32.ActiveCfg = Release|Win32
+		{095C6982-DBD8-48A8-A2B4-E9F78A8780AB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
