@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{12E17A25-99D4-4981-B4AA-D100F4FB49C6}</ProjectGuid>
-    <RootNamespace>My100_Same_Tree</RootNamespace>
+    <ProjectGuid>{46D4CB47-2D8E-43BB-ABD6-F7DE36FD8D0B}</ProjectGuid>
+    <RootNamespace>My102_Binary_Tree_Level_Order_Traversal</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,7 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Same_Tree.cpp" />
+    <ClCompile Include="Binary_Tree_Level_Order_Traversal.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
