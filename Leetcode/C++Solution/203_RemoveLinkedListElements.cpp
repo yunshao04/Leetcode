@@ -40,7 +40,6 @@ class RemoveLinkedListElements : public slt::Solution {
 			cout << tmp->val << "->";
 			tmp = tmp->next;
 		}
-		cout << "aaa" << endl;
 
 	}
 };

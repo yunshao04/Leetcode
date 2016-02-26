@@ -77,6 +77,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "171_Excel_Sheet_Column_Numb
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++Solution", "C++Solution\C++Solution.vcxproj", "{15EC729B-7586-4C9E-BBEA-B27DD840C0A4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "204. Count Primes", "204. Count Primes\204. Count Primes.vcxproj", "{DFA9503B-FDAE-457D-8BD3-22642C3AA702}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -231,6 +233,10 @@ Global
 		{15EC729B-7586-4C9E-BBEA-B27DD840C0A4}.Debug|Win32.Build.0 = Debug|Win32
 		{15EC729B-7586-4C9E-BBEA-B27DD840C0A4}.Release|Win32.ActiveCfg = Release|Win32
 		{15EC729B-7586-4C9E-BBEA-B27DD840C0A4}.Release|Win32.Build.0 = Release|Win32
+		{DFA9503B-FDAE-457D-8BD3-22642C3AA702}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DFA9503B-FDAE-457D-8BD3-22642C3AA702}.Debug|Win32.Build.0 = Debug|Win32
+		{DFA9503B-FDAE-457D-8BD3-22642C3AA702}.Release|Win32.ActiveCfg = Release|Win32
+		{DFA9503B-FDAE-457D-8BD3-22642C3AA702}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
