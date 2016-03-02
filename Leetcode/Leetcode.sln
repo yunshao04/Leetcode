@@ -93,6 +93,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "231. Power of Two", "231. P
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "234. Palindrome Linked List", "234. Palindrome Linked List\234. Palindrome Linked List.vcxproj", "{0B24186E-C4DE-44FF-B473-BB957C04AE2D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "235. Lowest Common Ancestor of a Binary Search Tree", "235. Lowest Common Ancestor of a Binary Search Tree\235. Lowest Common Ancestor of a Binary Search Tree.vcxproj", "{72528424-6E7F-48CC-AE0C-BAFB1F09CA04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -279,6 +281,10 @@ Global
 		{0B24186E-C4DE-44FF-B473-BB957C04AE2D}.Debug|Win32.Build.0 = Debug|Win32
 		{0B24186E-C4DE-44FF-B473-BB957C04AE2D}.Release|Win32.ActiveCfg = Release|Win32
 		{0B24186E-C4DE-44FF-B473-BB957C04AE2D}.Release|Win32.Build.0 = Release|Win32
+		{72528424-6E7F-48CC-AE0C-BAFB1F09CA04}.Debug|Win32.ActiveCfg = Debug|Win32
+		{72528424-6E7F-48CC-AE0C-BAFB1F09CA04}.Debug|Win32.Build.0 = Debug|Win32
+		{72528424-6E7F-48CC-AE0C-BAFB1F09CA04}.Release|Win32.ActiveCfg = Release|Win32
+		{72528424-6E7F-48CC-AE0C-BAFB1F09CA04}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
